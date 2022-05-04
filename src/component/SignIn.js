@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../index.css';
 
 
@@ -12,10 +13,10 @@ export default function SignIn(props) {
                     <input type="text" placeholder="Enter username" />
                     <input type="password" placeholder="Password" />
                     <p className="recover">
-                        <a href=" ">Recover Password</a>
+                        <Link to=" ">Recover Password</Link>
                     </p>
                 </form>
-                <button><a href="./dashboard">Sign In</a></button>
+                <button><Link to="./dashboard">Sign In</Link></button>
                 <p className="or">
                     ----- or continue with -----
                 </p>
@@ -25,7 +26,7 @@ export default function SignIn(props) {
                     <i className="fa fa-facebook"></i>
                 </div>
                 <div className="not-member">
-                    Not a member? <a href="./SignUp">Sign Up Now</a>
+                    Not a member? <Link to="./SignUp">Sign Up Now</Link>
                 </div>
             </div>
         </>

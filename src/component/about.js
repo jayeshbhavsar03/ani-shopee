@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../index.css';
 import Logo from "../images/logo.png";
 import S1 from "../images/s1.png";
@@ -13,12 +14,12 @@ export default function about(props) {
                 <header className="header_section">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg custom_nav-container ">
-                            <a className="navbar-brand" href="index.html">
+                            <Link  className="navbar-brand" to="index.html">
                                 <img src={Logo} alt="" />
                                 <span>
                                     Ani Shopee
                                 </span>
-                            </a>
+                            </Link>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className=""> </span>
@@ -27,19 +28,19 @@ export default function about(props) {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="/dashboard"> Home </a>
+                                        <Link  className="nav-link" to="/dashboard"> Home </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href=" "> About </a>
+                                        <Link  className="nav-link" to=" "> About </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/pet_adop"> Pets Category </a>
+                                        <Link  className="nav-link" to="/pet_adop"> Pets Category </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link pr-lg-0" href=" "> Contact us</a>
+                                        <Link  className="nav-link pr-lg-0" to=" "> Contact us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/" class="btn btn-secondary">Log out</a>
+                                        <Link  to="/" class="btn btn-secondary">Log out</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -117,12 +118,12 @@ export default function about(props) {
                         <div className="col-md-6 col-lg-3">
                             <div className="info_logo">
                                 <div>
-                                    <a href=" ">
+                                    <Link  to=" ">
                                         <img src={Logo} alt="" />
                                         <span>
                                             Ani Shopee
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum ex accusamus vero molestiae dolorem aut explicabo ratione debitis minus.
@@ -136,39 +137,39 @@ export default function about(props) {
                                 </h5>
                                 <div className="info_contact">
                                     <div className="contact_link_box">
-                                        <a href=" ">
+                                        <Link  to=" ">
                                             <i className="fa fa-map-marker" aria-hidden="true"></i>
                                             <span>
                                                 J-Tower, Aurangabad, Maharashtra.
                                             </span>
-                                        </a>
-                                        <a href=" ">
+                                        </Link>
+                                        <Link  to=" ">
                                             <i className="fa fa-phone" aria-hidden="true"></i>
                                             <span>
                                                 Call +91 9370821861
                                             </span>
-                                        </a>
-                                        <a href=" ">
+                                        </Link>
+                                        <Link  to=" ">
                                             <i className="fa fa-envelope" aria-hidden="true"></i>
                                             <span>
                                                 jaybhavsar9370@gmail.com
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="info_social">
-                                    <a href=" ">
+                                    <Link  to=" ">
                                         <i className="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link  to=" ">
                                         <i className="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link  to=" ">
                                         <i className="fa fa-linkedin" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link  to=" ">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-// import SignIn from './component/SignIn';
+import { Link } from 'react-router-dom'
 import '../index.css';
 import Logo from "../images/logo.png";
 import Slider from "../images/slider-bg.jpg";
@@ -26,12 +26,12 @@ export default function Main(props) {
                 <header className="header_section">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg custom_nav-container ">
-                            <a className="navbar-brand" href=" ">
+                            <Link className="navbar-brand" to=" ">
                                 <img src={Logo} alt="" />
                                 <span>
                                     Ani Shopee
                                 </span>
-                            </a>
+                            </Link>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className=""> </span>
@@ -40,19 +40,19 @@ export default function Main(props) {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href=" "> Home </a>
+                                        <Link className="nav-link" to=" "> Home </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/about"> About </a>
+                                        <Link className="nav-link" to="/about"> About </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/pet_adop"> Pets Category </a>
+                                        <Link className="nav-link" to="/pet_adop"> Pets Category </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link pr-lg-0" href="/contact"> Contact us</a>
+                                        <Link className="nav-link pr-lg-0" to="/contact"> Contact us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/" class="btn btn-secondary">Log out</a>
+                                        <Link to="/" class="btn btn-secondary">Log out</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -75,12 +75,12 @@ export default function Main(props) {
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste officiis repellat nisi placeat consectetur voluptatibus, facilis vero blanditiis eveniet? Similique deleniti impedit ipsum corporis molestiae natus qui? Unde, corrupti.
                                     </p>
                                     <div className="btn-box">
-                                        <a href=" " className="btn-1">
+                                        <Link to=" " className="btn-1">
                                             What we do
-                                        </a>
-                                        <a href=" " className="btn-2">
+                                        </Link>
+                                        <Link to=" " className="btn-2">
                                             Adopt Pet
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -167,9 +167,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g1} alt="" />
                                 <div className="btn-box">
-                                    <a href={g1} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g1} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -177,9 +177,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g2} alt="" />
                                 <div className="btn-box">
-                                    <a href={g2} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g2} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -187,9 +187,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g3} alt="" />
                                 <div className="btn-box">
-                                    <a href={g3} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g3} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -197,9 +197,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g4} alt="" />
                                 <div className="btn-box">
-                                    <a href={g4} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g4} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -207,9 +207,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g5} alt="" />
                                 <div className="btn-box">
-                                    <a href={g5} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g5} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -217,9 +217,9 @@ export default function Main(props) {
                             <div className="img-box">
                                 <img src={g6} alt="" />
                                 <div className="btn-box">
-                                    <a href={g6} data-toggle="lightbox" className="btn-1">
+                                    <Link to={g6} data-toggle="lightbox" className="btn-1">
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -308,12 +308,12 @@ export default function Main(props) {
                         <div className="col-md-6 col-lg-3">
                             <div className="info_logo">
                                 <div>
-                                    <a href=" ">
+                                    <Link to=" ">
                                         <img src={Logo} alt="" />
                                         <span>
                                             Ani Shopee
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ducimus quia velit ipsa, error a nesciunt natus dolores rerum veniam?
@@ -327,39 +327,39 @@ export default function Main(props) {
                                 </h5>
                                 <div className="info_contact">
                                     <div className="contact_link_box">
-                                        <a href=" ">
+                                        <Link to=" ">
                                             <i className="fa fa-map-marker" aria-hidden="true"></i>
                                             <span>
                                                 J-Tower, Aurangabad, Maharashtra.
                                             </span>
-                                        </a>
-                                        <a href=" ">
+                                        </Link>
+                                        <Link to=" ">
                                             <i className="fa fa-phone" aria-hidden="true"></i>
                                             <span>
                                                 Call +91 9370821861
                                             </span>
-                                        </a>
-                                        <a href=" ">
+                                        </Link>
+                                        <Link to=" ">
                                             <i className="fa fa-envelope" aria-hidden="true"></i>
                                             <span>
                                                 jaybhavsar9370@gmail.com
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="info_social">
-                                    <a href=" ">
+                                    <Link to=" ">
                                         <i className="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link to=" ">
                                         <i className="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link to=" ">
                                         <i className="fa fa-linkedin" aria-hidden="true"></i>
-                                    </a>
-                                    <a href=" ">
+                                    </Link>
+                                    <Link to=" ">
                                         <i className="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
