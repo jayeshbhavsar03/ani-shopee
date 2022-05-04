@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <>
-    <Router basename='/'>
+    <Router basename='/ani-shopee'>
         <Routes>
         <Route exact path="/" element={<SignIn />} />
         <Route exact path="/signup" element={<SignUp />} />
