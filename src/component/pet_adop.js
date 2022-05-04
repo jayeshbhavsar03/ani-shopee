@@ -40,7 +40,7 @@ export default function pet_adop(props) {
                                     <Link className="nav-link pr-lg-0" to="/contact"> Contact us</Link>
                                 </li>
                                 <li className="nav-item">
-                                        <Link to="/" class="btn btn-secondary">Buy Now</Link>
+                                        <Link to="/" class="btn btn-secondary">Log out</Link>
                                 </li>
                             </ul>
                         </div>
