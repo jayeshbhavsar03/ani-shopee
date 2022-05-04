@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ani-shopee/static/css/main.6cadbbff.css",
-    "main.js": "/ani-shopee/static/js/main.e06267d2.js",
+    "main.js": "/ani-shopee/static/js/main.f69d77c7.js",
     "static/js/787.a7896435.chunk.js": "/ani-shopee/static/js/787.a7896435.chunk.js",
     "static/media/ap3.jpg": "/ani-shopee/static/media/ap3.44fb556a6a09448ddc1a.jpg",
     "static/media/slider-bg.jpg": "/ani-shopee/static/media/slider-bg.99de66e8ea413d358991.jpg",
@@ -22,11 +22,11 @@
     "static/media/g2.jpg": "/ani-shopee/static/media/g2.7a367880bfebbb35e047.jpg",
     "index.html": "/ani-shopee/index.html",
     "main.6cadbbff.css.map": "/ani-shopee/static/css/main.6cadbbff.css.map",
-    "main.e06267d2.js.map": "/ani-shopee/static/js/main.e06267d2.js.map",
+    "main.f69d77c7.js.map": "/ani-shopee/static/js/main.f69d77c7.js.map",
     "787.a7896435.chunk.js.map": "/ani-shopee/static/js/787.a7896435.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cadbbff.css",
-    "static/js/main.e06267d2.js"
+    "static/js/main.f69d77c7.js"
   ]
 }
